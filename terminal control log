@@ -1,0 +1,35 @@
+Last login: Wed Apr  1 14:16:36 on console
+ryusungeun@SungEuns-MacBook-Pro Codyssey % git clone https://github.com/loader1017/workstation-dev.git
+Cloning into 'workstation-dev'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+ryusungeun@SungEuns-MacBook-Pro Codyssey % cd workstation-dev
+ryusungeun@SungEuns-MacBook-Pro workstation-dev % pwd
+/Users/ryusungeun/Desktop/2026/Codyssey/workstation-dev
+ryusungeun@SungEuns-MacBook-Pro workstation-dev % ls -la
+total 8
+drwxr-xr-x   4 ryusungeun  staff  128 Apr  1 14:32 .
+drwxr-xr-x@  4 ryusungeun  staff  128 Apr  1 14:32 ..
+drwxr-xr-x  12 ryusungeun  staff  384 Apr  1 14:32 .git
+-rw-r--r--   1 ryusungeun  staff   17 Apr  1 14:32 README.md
+ryusungeun@SungEuns-MacBook-Pro workstation-dev % mkdir practice 
+ryusungeun@SungEuns-MacBook-Pro workstation-dev % cd practice
+ryusungeun@SungEuns-MacBook-Pro practice % touch test.txt
+ryusungeun@SungEuns-MacBook-Pro practice % cat test.txt
+ryusungeun@SungEuns-MacBook-Pro practice % cd ..
+ryusungeun@SungEuns-MacBook-Pro workstation-dev % cd practice
+ryusungeun@SungEuns-MacBook-Pro practice % cd .
+ryusungeun@SungEuns-MacBook-Pro practice % cd ..
+ryusungeun@SungEuns-MacBook-Pro workstation-dev % ls -ld practice practice/test.txt
+drwxr-xr-x  3 ryusungeun  staff  96 Apr  1 14:33 practice
+-rw-r--r--  1 ryusungeun  staff   0 Apr  1 14:33 practice/test.txt
+ryusungeun@SungEuns-MacBook-Pro workstation-dev % chmod 755 practice/text.txt 
+chmod: practice/text.txt: No such file or directory
+ryusungeun@SungEuns-MacBook-Pro workstation-dev % chmod 755 practice/test.txt
+ryusungeun@SungEuns-MacBook-Pro workstation-dev % chmod 700 practice
+ryusungeun@SungEuns-MacBook-Pro workstation-dev % ls -ld practice practice/test.txt
+drwx------  3 ryusungeun  staff  96 Apr  1 14:33 practice
+-rwxr-xr-x  1 ryusungeun  staff   0 Apr  1 14:33 practice/test.txt
+ryusungeun@SungEuns-MacBook-Pro workstation-dev % 
